@@ -4,6 +4,9 @@
     <title>Testing</title>
   </head>
   <body>
-    <h1>Hello World</h1>
+    <% def initialize(@name = "Joe")%>
+      <% @name = name %>
+    <% end %>
+    <h1>Goodbye <%=name%></h1>
   </body>
 <html>
